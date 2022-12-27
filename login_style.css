@@ -1,0 +1,144 @@
+
+.submit{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align:center;
+    margin-top: 50px;
+    border-radius: 150px;
+    background-color: green;    
+}
+.user{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    margin-top: 10px;
+    border-radius:150px;
+    background-color: white;
+    width:100px;
+}
+.pass{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    margin-top: 10px;
+    border-radius: 150px;
+    width: 100px;
+}
+.signUpPage_link{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-top:50px;
+    border: palevioletred;
+    border-radius: 150px 0 150px 0;
+
+}
+.login_form{
+    text-align: center;
+    border: solid 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 0 50px 0 50px;
+    
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 200px;
+    margin: 0 300px 0 300px;
+    width: 500px;
+    width: 50%;
+    height: 10%;
+    box-sizing: border-box;
+    background: linear-gradient(320deg, violet, blue, aqua);
+    
+
+}
+
+
+body{
+    background:linear-gradient(320deg,aqua, blue,
+    violet);
+    
+}
+.nav_window{
+    background-color: aqua;
+    border: solid 0px;
+    border-radius: 0 100px 100px 0;
+    width: 175px;
+    height: 200px; 
+    border-width: 1px,black;
+    border-style: solid;
+}
+    
+.nav_buttons{
+    list-style: none;
+    position: relative;
+}
+.nav_buttons li{
+    padding: 10px 0;
+}
+.nav_buttons li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 14px;
+    display: flex;
+    align-items: center;
+}
+.nav_buttons li a i{
+    font-size: 22px;
+    margin-right: 10px;
+}
+.active{
+    background-color: #fff;
+    width: 100%;
+    height:47px;
+    position:absolute;
+    left:0;
+    top:0;
+    z-index: -1px;
+    border-radius: 6px;
+    box-shadow: 0 5px 10px rgb(255, 255, 255, 0.4);
+}
+.nav_buttons li:hover a{
+    color: #ffffff;
+    transition: 0.3s;
+}
+
+    
+
+.home_button{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    border-radius: 0 50px 0 50px;
+    border: 0px;
+    background-color: white;
+    text-align: center;
+    padding-left: 10px;
+    padding-right:10px;
+    margin-left:28px;
+    margin-top:20px;
+}
+.logo{
+    border-radius: 1000px;
+    image-rendering: optimizeQuality;
+    image-rendering: crisp-edges;
+    width: 100px;
+    background-color: blueviolet;
+    text-align: left;
+    margin-left: 20px;
+    
+    
+}    
+.upgrade_button{
+    text-align: center;
+    font-weight: bold;
+    border-radius: 0 50px 0 50px;
+    border: 0px;
+    background-color: green;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left:28px;
+    
+}
+
+.footer{
+    border: solid 1px;
+    background-color: black;
+    margin-top:100px;
+    width: 3000;
+    height: 50px;
+}

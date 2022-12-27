@@ -1,0 +1,49 @@
+body{
+    background-color: blueviolet;
+
+}
+.nav_buttons{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: top;
+    border: solid 1px;
+    border-radius: 1000px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right:10px;
+    margin-left: 40px;
+}
+.home_button{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: top;
+    border: solid 1px;
+    border-radius: 1000px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right:10px;
+    margin-left:28px;
+}
+.logo{
+    border-radius: 1000px;
+    image-rendering: optimizeQuality;
+    image-rendering: crisp-edges;
+    max-width: 100%;
+    max-height: auto;
+    background-color: blueviolet;
+    text-align: right;
+    
+    
+}    
+.upgrade_button{
+    text-align: center;
+    font-weight: bold;
+    border: solid 1px;
+    border-radius: 100px;
+    background-color: green;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left:28px;
+    
+}
+
+
+
