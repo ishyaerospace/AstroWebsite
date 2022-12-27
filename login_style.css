@@ -88,7 +88,7 @@ body{
     height:47px;
     position:absolute;
     left:0;
-    top:0;
+    top:2.6%;
     z-index: -1px;
     border-radius: 6px;
     box-shadow: 0 5px 10px rgb(255, 255, 255, 0.4);
@@ -96,6 +96,9 @@ body{
 .nav_buttons li:hover a{
     color: blue;
     transition: 0.3s;
+}
+.nav_buttons li :hover ~ .active{
+ display: block;
 }
 
     
