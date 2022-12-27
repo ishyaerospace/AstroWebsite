@@ -94,7 +94,7 @@ body{
     box-shadow: 0 5px 10px rgb(255, 255, 255, 0.4);
 }
 .nav_buttons li:hover a{
-    color: #ffffff;
+    color: blue;
     transition: 0.3s;
 }
 
