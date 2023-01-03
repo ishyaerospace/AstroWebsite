@@ -1,4 +1,5 @@
 
+
 .submit{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align:center;
@@ -33,19 +34,18 @@
     text-align: center;
     border: solid 0px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    border-radius: 0 50px 0 50px;
+    border-radius: 50px 0 50px 0;
     
     padding-left: 10px;
     padding-right: 10px;
-    padding-bottom: 200px;
-    margin: 0 300px 0 300px;
-    width: 500px;
-    width: 50%;
-    height: 10%;
+    padding-bottom: 100px;
+    padding-top: 100px;
+
+    width: 100%;
+    height: 650px;
     box-sizing: border-box;
     background: linear-gradient(320deg, violet, blue, aqua);
-    
-
+    grid-area: main;
 }
 
 
@@ -58,10 +58,11 @@ body{
     background-color: aqua;
     border: solid 0px;
     border-radius: 0 100px 100px 0;
-    width: 175px;
-    height: 200px; 
+    width: 75%;
+    height: 650px; 
     border-width: 1px,black;
     border-style: solid;
+    grid-area: menu;
 }
     
 .nav_buttons{
@@ -88,7 +89,7 @@ body{
     height:47px;
     position:absolute;
     left:0;
-    top:0;
+    top:2.6%;
     z-index: -1px;
     border-radius: 6px;
     box-shadow: 0 5px 10px rgb(255, 255, 255, 0.4);
@@ -97,11 +98,25 @@ body{
     color: blue;
     transition: 0.3s;
 }
-
-    
-
-    
+.nav_buttons li :hover ~ .active{
+ display: block;
 }
+
+    
+
+
+.logo{
+    border-radius: 1000px;
+    image-rendering: optimizeQuality;
+    image-rendering: crisp-edges;
+    width: 100px;
+    background-color: blueviolet;
+    text-align: left;
+    margin-left: 20px;
+    
+    
+}    
+
 
 .footer{
     border: solid 1px;
@@ -109,4 +124,12 @@ body{
     margin-top:100px;
     width: 3000;
     height: 50px;
+    grid-area: footer;
+}
+.grid_container{
+    display: grid;
+    grid-template-areas:
+      'header header header header header header'
+      'menu main main main main right'
+      'footer footer footer footer footer footer';
 }
